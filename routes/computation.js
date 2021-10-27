@@ -8,8 +8,8 @@ var log10;
 /* GET users listing. */
 
 router.get("/", function (req, res, next) {
-  rno = Math.log() * (100 - 1) + 1;
-  rno1 = Math.log() * (100 - 1) + 1;
+  rno = Math.random() * (100 - 1) + 1;
+  rno1 = Math.random() * (100 - 1) + 1;
 
   imul = Math.imul(rno, rno1);
 
